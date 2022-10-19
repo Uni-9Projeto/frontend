@@ -1,0 +1,272 @@
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+/* Cores principais */
+:root {
+    --azul: #29258F;
+    --azul-claro:#5c58db;
+    --amarelo: #dbbf35;
+    --amarelo-claro:#ffe66b;
+    --amarelo-escuro: #8f7a14;
+    --cinza:#f5f5f5;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* Estilo padrão de toda a página */
+body{
+    background: #fff;
+}
+
+/* Estilo do Header */
+.nav-link {
+    color: var(--azul);
+}
+
+.botao-light {
+    color: var(--azul);
+    border-color: var(--azul);
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.botao-light:hover{
+    background-color: #ffffff;
+    border-color: var(--amarelo);
+    color: var(--amarelo);
+}
+.botao-dark {
+    color: #fff;
+    background-color: var(--azul);
+    border-color: var(--azul);
+}
+.botao-dark:hover{
+    background-color: var(--amarelo);
+    border-color: var(--amarelo);
+    color: white;
+}
+
+/* Estilo do main */
+.container{
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+.search-container{
+    display: grid;
+    column-gap: 50px;
+
+}
+.input-padrao{
+    box-sizing: border-box;
+    background: #FFFFFF;
+    width: auto;
+    border: 1px solid var(--azul);
+    border-radius: 6px;
+    padding: 12px 20px;
+}
+
+.input-padrao:focus{
+    border: var(--amarelo);
+}
+.divTopo{
+    background-color: var(--cinza);
+    padding: 2%;
+}
+
+.pTopo{
+    font-size: 25px;
+}
+.imgPaginaPrincipal{
+    width: 60%;
+}
+.posicaoBotaoTopo{
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    width: 120px;
+    height: 40px;
+    right: 10%;
+    top: 10px;
+}
+
+/* Para Candidatos */
+.tituloCandidato{
+    margin-bottom: 10%;
+}
+p{
+    font-size: 20px;
+
+}
+.paraCandidatosArea{
+    background-color: var(--cinza);
+    padding: 10% 0;
+}
+
+/* Para empresas */
+
+/* Quem somos */
+.quemSomosArea{
+    margin-top: 10%;
+}
+.carousel img{
+    height: 70%;
+}
+
+/* Suporte */
+.posicaoBotaoSuporte{
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    width: 120px;
+    right: 10%;
+    padding: 6px 5px;
+    margin-top: 8%;
+}
+
+.ContatosFot li a{
+    font-size: 20px;
+    color: gray;
+}
+li a:hover{
+    text-decoration: none;
+    color: var(--amarelo);
+}
+
+/* footer*/
+#myFooter{
+    padding-top:32px;
+}
+
+#myFooter .container{
+    margin-top: 20px;
+    text-align: center;
+}
+
+#myFooter .footer-copyright{
+    margin-bottom: 35px;
+    text-align: center;
+    color: #777;
+}
+
+#myFooter ul{
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 18px;
+}
+
+#myFooter a{
+    color: #282b2d;
+    font-size: 18px;
+}
+
+#myFooter li{
+    display: inline-block;
+    margin: 0px 15px;
+    line-height: 2;
+}
+
+#myFooter .footer-social{
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #eee;
+}
+
+#myFooter .fa{
+    font-size: 36px;
+    margin-right: 15px;
+    margin-left: 20px;
+    background-color: white;
+    color: #d0d0d0;
+    border-radius: 51%;
+    padding: 10px;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    line-height: 43px;
+    text-decoration: none;
+    transition:color 0.2s;
+}
+
+#myFooter .fa-facebook:hover{
+   color: #2b55ff;
+}
+
+#myFooter .fa-facebook:focus{
+    color: #2b55ff; 
+}
+
+#myFooter .fa-instagram:hover{
+    color:purple;
+}
+
+#myFooter .fa-instagram:focus{
+    color:purple;
+}
+
+#myFooter .fa-youtube:hover{
+    color:red;
+}
+
+#myFooter .fa-youtube:focus{
+    color:red;
+}
+
+#myFooter .fa-twitter:hover{
+    color: #00aced;
+
+}
+
+#myFooter .fa-twitter:focus{
+    color:#00aced;
+}
+
+
+#logodesk {
+   margin: 0%;
+   margin-left: 46%;
+   margin-block-end: 2%;
+   
+
+
+}
+#linha {
+    margin-top: auto;
+    background-color: rgb(94, 93, 93);
+    height: 1px;
+    margin-block-end: 0%;
+}
+
+
+#container_perfil{
+    margin-top: 15%;
+   height: 230px;
+   background-color: rgb(236, 236, 236);
+    
+}
+
+
+.perfilNome{
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 36px;
+
+}
+
+/*login */
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+.h-custom {
+height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+.h-custom {
+height: 100%;
+}
+}

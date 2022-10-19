@@ -1,0 +1,14 @@
+.container{
+    margin-top: 0;
+    margin-left: 15%;
+    padding: 0;
+}
+form{
+    margin-top: 3%;
+}
+form div{
+    padding: 10px;
+}
+.botao-dark{
+    padding-inline: 3%;
+}
